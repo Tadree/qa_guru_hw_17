@@ -54,7 +54,7 @@ public class Attach {
         return null;
     }
 
-    public static String getConsoleLogs() { // todo refactor
+    public static String getConsoleLogs() {
         return String.join("\n", Selenide.getWebDriverLogs(BROWSER));
     }
 }
