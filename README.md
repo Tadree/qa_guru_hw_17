@@ -28,11 +28,11 @@
 ### Запуск тестов из терминала
 #### Локальный запуск тестов с параметрами из конфигурационного файла:
 ```bash
-gradle test -Denv=local
+gradle clean test -Denv=local
 ```
 #### Удаленный запуск тестов с параметрами из конфигурационного файла:
 ```shell
-gradle test -Denv=remote
+gradle clean test -Denv=remote
 ```
 
 #### Удаленный запуск тестов с передачей параметров:
@@ -53,7 +53,7 @@ gradle clean test
 - <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 - <code>VIDEO_STORAGE</code> - адрес удаленного сервера, по которому можно получить видео.
 
-### Сборка в Jenkins
+### Сборка в [Jenkins](https://jenkins.autotests.cloud/job/20-Tadree-hh.ru/)
 <p align="center">
 <img title="Jenkins Build" src="images/screens/Jenkins.png">
 </p>
@@ -69,7 +69,7 @@ gradle clean test
 <img title="Jenkins Build" src="images/screens/Allure-tests.png">
 </p>
 
-### Интеграция с Allure TestOps
+### Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3515/dashboards)
 #### Dashboard
 <p align="center">
 <img title="Jenkins Build" src="images/screens/Allure-TestOps-dashboard.png">
@@ -80,7 +80,7 @@ gradle clean test
 <img title="Jenkins Build" src="images/screens/Allure-TestOps-tests.png">
 </p>
 
-### Интеграция с Jira
+### Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-787)
 <p align="center">
 <img title="Jenkins Build" src="images/screens/Jira.png">
 </p>

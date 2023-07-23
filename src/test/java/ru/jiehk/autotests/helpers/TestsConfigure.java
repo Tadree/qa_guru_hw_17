@@ -24,8 +24,7 @@ public class TestsConfigure {
         ));
 
         Configuration.browserCapabilities = capabilities;
-        Configuration.pageLoadTimeout = 3000000;
-        Configuration.timeout = 3000000;
+        Configuration.pageLoadStrategy = "eager";
 
         ChromeOptions chromeOptions = new ChromeOptions();
 
